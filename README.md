@@ -15,7 +15,7 @@ This thing will enable multiple watch folders for transmission, configurable wit
     }
   },
   "Settings": {
-      "Host": "192.168.88.36",
+      "Host": "192.168.0.123",
       "Port": "9091",
       "User": "username",
       "Pass": "password",
