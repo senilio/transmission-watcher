@@ -1,0 +1,19 @@
+{
+  "Downloads": {
+    "Ubuntu": {
+      "Directory": "/watchdir/ubuntu",
+      "Download": "/downloads/ubuntu"
+    },
+    "Debian": {
+      "Directory": "/watchdir/debian",
+      "Download": "/downloads/debian"
+    }
+  },
+  "Settings": {
+      "Host": "192.168.0.123",
+      "Port": "9091",
+      "User": "username",
+      "Pass": "password",
+      "Sleeptime": 10
+  }
+}

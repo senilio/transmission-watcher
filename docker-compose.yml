@@ -1,0 +1,8 @@
+version: "3"
+services:
+  transmission-watcher:
+    restart: unless-stopped
+    image: transmission-watcher:latest
+    container_name: transmission-watcher
+    volumes:
+      - ./config.json:/config.json
