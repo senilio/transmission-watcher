@@ -43,11 +43,11 @@ def main():
     log('Started watcher.')
     log('Configured watch directories:')
     for i in config["Downloads"]:
-        log(f'- {i}: {config["Downloads"][i]["Directory"]}')
+        log(f'- {i}: {config["Downloads"][i]["Directory"]} → {config["Downloads"][i]["Download"]}')
 
     while True:
         for i in config["Downloads"]:
-            add(config["Downloads"][i]["Directory"], config["Downloads"][i]["Directory"], i)
+            add(config["Downloads"][i]["Directory"], config["Downloads"][i]["Download"], i)
         time.sleep(config["Settings"]["Sleeptime"])
 
 if __name__ == '__main__':
