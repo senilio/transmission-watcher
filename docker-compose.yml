@@ -6,3 +6,4 @@ services:
     container_name: transmission-watcher
     volumes:
       - ./config.json:/config.json
+      - /torrents:/watchdir
